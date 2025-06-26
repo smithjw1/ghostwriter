@@ -1,7 +1,7 @@
 {
-  "name": "ai-blog-writer",
+  "name": "ghost-writer",
   "version": "1.0.0",
-  "description": "A command-line tool to generate blog posts using your voice and tone from WordPress exports and a local AI model.",
+  "description": "A command-line tool to generate a response using your voice and tone from WordPress exports and a local AI model.",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -10,13 +10,12 @@
   },
   "keywords": [
     "ai",
-    "blog",
     "generator",
     "cli",
     "local-ai"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Jacob W. Smith",
+  "license": "GPL-2.0",
   "dependencies": {
     "xml2js": "^0.6.2",
     "yargs": "^17.7.2",

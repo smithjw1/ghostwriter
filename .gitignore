@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.npm
+.npmrc
+.npmignore
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local AI model data
+ollama/
+*.bin
+*.model
+
+# Generated database
+posts_database.json
+
+# OS generated files
+.DS_Store
+
+# WordPress XML exports
+src/wordpress_exports/*.xml

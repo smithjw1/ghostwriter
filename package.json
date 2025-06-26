@@ -1,0 +1,26 @@
+{
+  "name": "ai-blog-writer",
+  "version": "1.0.0",
+  "description": "A command-line tool to generate blog posts using your voice and tone from WordPress exports and a local AI model.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "start-ai": "ollama serve"
+  },
+  "keywords": [
+    "ai",
+    "blog",
+    "generator",
+    "cli",
+    "local-ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "yargs": "^17.7.2",
+    "ollama": "^0.5.0",
+    "html-to-text": "^9.0.5"
+  }
+}

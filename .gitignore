@@ -16,8 +16,10 @@ ollama/
 *.bin
 *.model
 
-# Generated database
+# Generated database and styles
 posts_database.json
+style_prompts.json
+src/prompts/*.txt
 
 # OS generated files
 .DS_Store
